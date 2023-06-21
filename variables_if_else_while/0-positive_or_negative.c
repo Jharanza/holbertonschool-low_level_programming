@@ -1,11 +1,14 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
 
 
 /**
- * main - Entry point, print if number is positive, negativo or zero
- * return: Always (Succes)
+ * main - Print number if is positive, negative or zero
+ * Return: Always (Succes)
+ *
  */
 
 int main(void)
