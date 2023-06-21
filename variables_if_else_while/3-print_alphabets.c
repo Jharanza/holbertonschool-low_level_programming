@@ -13,21 +13,16 @@
 
 int main(void)
 {
-	char n = 'a';
+	char n;
 
-	while (n <= 'z')
-	{
-		putchar(n);
-		n++;
-	}
+	for (n = 'a'; n <= 'z'; n++)
+	putchar(n);
 
-	char m = 'A';
-	while (m <= 'Z')
-	{
-		putchar(m);
-		m++;
-	}
+	for (n = 'A'; n <= 'Z'; n++)
+	putchar(n);
+
 	putchar('\n');
+
 	return (0);
 
 }
