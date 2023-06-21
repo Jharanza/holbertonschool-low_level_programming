@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
+
 /**
  * main - Entry point, print if number is positive, negativo or zero
  * return: Always (Succes)
  */
 
 int main(void)
+
 {
 
 	int n;
