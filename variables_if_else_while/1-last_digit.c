@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 /**
- * main: Print number if greater than 5, smaller than 6 or equal to 0 
- * return: Always (Succes)
+ * main - Print number if greater than 5, smaller than 6 or equal to 0
+ * Return: Always (Succes)
  *
  */
 
