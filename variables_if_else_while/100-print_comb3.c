@@ -6,10 +6,11 @@
  *
  */
 
-int main (void)
+int main(void)
 {
 	int i;
 	int j;
+
 	for (i = 0; i <= 8; i++)
 	{
 		for (j = 0; j <= 9; j++)
@@ -22,8 +23,8 @@ int main (void)
 				{
 					break;
 				}
-				putchar(32);
 				putchar(44);
+				putchar(32);
 			}
 		}
 	}
