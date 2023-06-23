@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/** main - Prints a statement followed by a new line.
- *
+/** main - Prints "programing is like building a multilingual puzzle"
  * Return : Always
+ *
  */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
-	return(0);
+	return (0);
 }
