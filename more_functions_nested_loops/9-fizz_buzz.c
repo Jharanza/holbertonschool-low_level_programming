@@ -10,7 +10,6 @@
 int main(void)
 {
 	int n;
-	
 
 	for (n = 1; n <= 100; n++)
 	{
@@ -22,15 +21,19 @@ int main(void)
 		{
 			if (n % 15 == 0)
 			{
-				printf("FizzBuzz ");
+				printf("FizzBuzz");
+				putchar(32);
 			}
 			else if (n % 3 == 0)
 			{
-				printf("Fizz ");
+				printf("Fizz");
+				putchar(32);
 			}
 			else if (n % 5 == 0)
 			{
-				printf("Buzz ");
+				printf("Buzz");
+				if (n != 100)
+					putchar(32);
 			}
 		}
 	}
