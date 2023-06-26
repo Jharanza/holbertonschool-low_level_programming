@@ -19,7 +19,7 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			res = x * y;
-			
+
 			if (y == 0)
 			{
 				printf("%d,", res);
