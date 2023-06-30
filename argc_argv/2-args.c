@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
  * main - prints all arguments
  *
@@ -22,6 +21,6 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[i]);
 	}
 
-	return (9);
+	return (0);
 }
 
