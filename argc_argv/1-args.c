@@ -6,7 +6,7 @@
  *
  * @argc:Count the number of arguments
  *
- * @argv: Array of arguments 
+ * @argv: Array of arguments
  *
  * Return: Always 0;
  *
