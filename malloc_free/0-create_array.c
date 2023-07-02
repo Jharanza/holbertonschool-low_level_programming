@@ -13,20 +13,24 @@
  *
  */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
-	unsigned int i = 0;
-	char *str = (char *)malloc(sizeof(char) * size);
+	unsigned int i;
+	char *str;
 
 	if (size == 0)
 	{
 		return (NULL);
 	}
 
+	str = (char*)malloc(sizeof(char) * size);
+
 	if (str == NULL)
 	{
 		return (NULL);
 	}
+
+	i = 0
 
 	while (i < size)
 	{
