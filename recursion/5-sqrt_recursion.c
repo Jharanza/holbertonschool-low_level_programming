@@ -1,27 +1,6 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - Return the square root of a number
- *
- * @n: number to obtain the square root
- *
- * Return: The square root of n
- *
- */
-
-int _sqrt_recursion(int n)
-{
-	if (n < 0)
-	{
-		return (-1);
-	}
-	else
-	{
-		return (raiz(0, n));
-	}
-}
-
-/**
  * raiz - Return the square root
  *
  * @i: is the square root of n
@@ -44,4 +23,25 @@ int raiz(int i, int n)
 	}
 
 	return (raiz(i + 1, n));
+}
+
+/**
+ * _sqrt_recursion - Return the square root of a number
+ *
+ * @n: number to obtain the square root
+ *
+ * Return: The square root of n
+ *
+ */
+
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+	return (-1);
+	}
+	else
+	{
+		return (raiz(0, n));
+	}
 }
