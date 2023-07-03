@@ -7,7 +7,7 @@
  *
  * @n: number to be checked
  *
- * Return 0 or 1
+ * Return: 0 or 1
  */
 
 int prime_aux(int n, int i)
