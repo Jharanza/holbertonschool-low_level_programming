@@ -2,7 +2,7 @@
 #define _DOG_H_
 /**
  * struct dog - A structure for dog
- * 
+ *
  * @name: Pointer to a char variable
  *
  * @owner: 2do pointer to another char variable
