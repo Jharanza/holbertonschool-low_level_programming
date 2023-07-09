@@ -5,7 +5,7 @@
  * int_index - function that executes a function given as
  * a parameter on each element of an array.
  *
- * @arrau: Primer argument
+ * @array: Pointer at array
  *
  * @size: Size of array
  *
